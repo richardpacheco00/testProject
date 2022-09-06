@@ -1,22 +1,9 @@
-/*
- * InputManger.java
- *
- * Created on 28 ãÇíæ, 2007, 01:32 ã
- *
- * To change this template, choose Tools | Template Manager
- * and open the template in the editor.
- */
 
 package com.mtala3t.snake2d;
 
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 
-/**
-*
-* @author Mohammed.Talaat (mtala3t)
-* @version 1.0
-*/
 public class InputManger implements KeyListener {
 
 	private GameBoardPanel gameBoard;

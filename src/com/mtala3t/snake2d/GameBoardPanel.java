@@ -14,11 +14,6 @@ import javax.swing.Timer;
 
 import com.mtala3t.snake2d.sound.SoundManger;
 
-/**
- *
- * @author Mohammed.Talaat (mtala3t)
- * @version 1.0
- */
 @SuppressWarnings("serial")
 public class GameBoardPanel extends JPanel implements ActionListener {
 
@@ -155,7 +150,7 @@ public class GameBoardPanel extends JPanel implements ActionListener {
 		g2.setFont(new Font("Comic Sans MS", Font.BOLD, 35));
 		g2.drawString("Snake2D Game", 390, 50);
 		g2.setColor(Color.ORANGE);
-		g2.drawString("mtala3t", 450, 100);
+		// g2.drawString("richardpatch", 450, 100);
 
 		g2.setFont(new Font("Comic Sans MS", Font.PLAIN, 15));
 		g2.setColor(Color.WHITE);
@@ -230,7 +225,7 @@ public class GameBoardPanel extends JPanel implements ActionListener {
 						.getSnakeBody().get(i)).getMaxY())
 						&& (((Ellipse2D.Double) snake.getSnakeBody().get(0))
 								.getCenterX() == ((Ellipse2D.Double) snake
-								.getSnakeBody().get(i)).getCenterX())) {
+										.getSnakeBody().get(i)).getCenterX())) {
 					return true;
 				}
 			}
@@ -241,7 +236,7 @@ public class GameBoardPanel extends JPanel implements ActionListener {
 						.getSnakeBody().get(i)).getMinY())
 						&& (((Ellipse2D.Double) snake.getSnakeBody().get(0))
 								.getCenterX() == ((Ellipse2D.Double) snake
-								.getSnakeBody().get(i)).getCenterX())) {
+										.getSnakeBody().get(i)).getCenterX())) {
 					return true;
 				}
 			}
@@ -252,7 +247,7 @@ public class GameBoardPanel extends JPanel implements ActionListener {
 						.getSnakeBody().get(i)).getMinX())
 						&& (((Ellipse2D.Double) snake.getSnakeBody().get(0))
 								.getCenterY() == ((Ellipse2D.Double) snake
-								.getSnakeBody().get(i)).getCenterY())) {
+										.getSnakeBody().get(i)).getCenterY())) {
 					return true;
 				}
 			}
@@ -263,7 +258,7 @@ public class GameBoardPanel extends JPanel implements ActionListener {
 						.getSnakeBody().get(i)).getMaxX())
 						&& (((Ellipse2D.Double) snake.getSnakeBody().get(0))
 								.getCenterY() == ((Ellipse2D.Double) snake
-								.getSnakeBody().get(i)).getCenterY())) {
+										.getSnakeBody().get(i)).getCenterY())) {
 					return true;
 				}
 			}
