@@ -89,7 +89,7 @@ public class MainScreen extends JFrame implements ActionListener {
 			g2.setFont(new Font("Comic Sans MS", Font.BOLD, 45));
 			g2.drawString("Snake2D Game", 135, 85);
 			g2.setColor(Color.ORANGE);
-			g2.drawString("richard", 210, 150);
+			//
 
 		}
 	}
